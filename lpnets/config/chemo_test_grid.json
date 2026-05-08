@@ -1,0 +1,13 @@
+{
+  "cohort": ["uker_cohort_aplasia_45_days", "uker_cohort_NF_30_days"],
+  "fold": ["0","1","2","3","4"],
+  "time_strategy": ["TS1"],
+  "edge_method": ["SSN","LIONESS"],
+  "agg_method": ["napyPCC", "PCC"],
+  "bin": ["day"],
+  "subset": [null],
+  "stats": [["mean","min","max","median"]],
+  "features": [["edge", "node"]],
+  "mode": ["final", "dev"],
+  "exp_name": ["test110326"]
+}

@@ -1,0 +1,13 @@
+pn_config/__pycache__/
+__pycache__/
+*.pyc
+**/.ipynb_checkpoints
+**/graph_results
+**/analysis
+catboost_info/
+.vscode/
+old/
+extra.py
+.env
+
+

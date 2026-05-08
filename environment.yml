@@ -1,0 +1,37 @@
+name: patient_networks
+
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - imbalanced-learn
+  - lightgbm
+  - python-dotenv
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - tqdm
+  - numpy
+  - shap
+  - nbstripout
+  - catboost
+  - seaborn
+  - ipykernel
+  - ipywidgets
+  - liblapack
+  - liblapacke
+  - pyyaml
+
+  - pip:
+      - napypi
+      - torch-geometric
+      - xgboost
+      - h5py
+      - pyarrow

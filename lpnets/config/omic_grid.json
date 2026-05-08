@@ -1,0 +1,9 @@
+{
+  "cohort": ["lung_tumours1000", "brain_tumours1000", "colorectal_tumours1000", "kidney_tumours1000","gi_adenocarcinomas1000","gyn_adenocarcinomas1000", "melanomas1000","adrenal_tumours1000", "lung_tumours2000", "brain_tumours2000", "colorectal_tumours2000", "kidney_tumours2000","gi_adenocarcinomas2000","gyn_adenocarcinomas2000", "melanomas2000","adrenal_tumours2000"],
+  "fold": ["0","1","2","3","4"],
+  "time_strategy": ["TS0"],
+  "edge_method": ["SSN","LIONESS","SWEET"],
+  "agg_method": ["PCC"],
+  "subset": [null],
+  "exp_name": ["omic_1000_2000"]  
+}

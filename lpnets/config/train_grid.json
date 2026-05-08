@@ -1,0 +1,9 @@
+{
+  "hptune": [false, true],
+  "significant": [true, false],
+  "zscores": [true, false],
+  "zmode": ["graphwise", "edgewise"],
+  "threshold": ["min", "p_val"],
+  "features": [["edge", "node"]],
+  "model": ["catboost_under", "rf_balanced"]
+}

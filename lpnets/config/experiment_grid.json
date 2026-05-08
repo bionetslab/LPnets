@@ -1,0 +1,17 @@
+{
+  "cohort": ["physionet_2012_icu"],
+  "fold": ["0"],
+  "time_strategy": ["TS1", "TS2", "TS3"],
+  "edge_method": ["SSN", "LIONESS", "SWEET"],
+  "agg_method": ["napyPCC", "PCC"],
+  "bin": ["6hour"],
+  "subset": [null],
+  "stats": [["mean", "median", "max", "min"]],
+  "features": [["edge", "node"]],
+  "significant": [true, false],
+  "zscores": [true, false],
+  "edgewise" : [true, false],
+  "no_val": [false],
+  "exp_name": ["test"],
+  "pipeline": ["SSNs"]
+}
